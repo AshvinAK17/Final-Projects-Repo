@@ -12,7 +12,6 @@ MODEL_PATH = r"models/CustomCNN.h5"
 IMG_SIZE = (128, 128)
 
 # ── Load model once and cache ──────────
-@st.cache_resource
 def load_model():
     return tf.keras.models.load_model(MODEL_PATH)
 
