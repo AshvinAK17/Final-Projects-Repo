@@ -47,6 +47,7 @@ This helps farmers and gardeners quickly identify plant diseases and take correc
 
 ###  Directory Structure
 
+```
 ├── models/ # Saved trained models (.h5)
 ├── plots/ # Accuracy plots
 ├── metrics_reports/ # JSON reports with evaluation metrics
@@ -54,7 +55,7 @@ This helps farmers and gardeners quickly identify plant diseases and take correc
 ├── plant_disease.py # Training and evaluatingscript
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ###  Tools & Technologies
