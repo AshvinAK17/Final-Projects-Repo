@@ -1,4 +1,4 @@
-#### Plant Disease Detection from Images
+# Plant Disease Detection from Images
 
 ## Objective
 Develop a **Streamlit web application** that lets users upload images of plant leaves and automatically predicts the type of disease (if any) using a trained Convolutional Neural Network (CNN).  
