@@ -8,7 +8,7 @@ import numpy as np
 from PIL import Image
 
 # ── CONFIG ─────────────────────────────
-MODEL_PATH = r"models/CustomCNN.h5"
+MODEL_PATH = r"Plant_disease_detection/models/CustomCNN.h5"
 IMG_SIZE = (128, 128)
 
 # ── Load model once and cache ──────────
