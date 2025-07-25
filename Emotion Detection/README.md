@@ -115,7 +115,7 @@ The `Emotion_detection_with_face.ipynb` script handles the complete training pip
 
 You can also directly access the app through the below link: [(https://final-projects-repo-knfbgsjlwooguofn8sabpd.streamlit.app/)](https://final-projects-repo-knfbgsjlwooguofn8sabpd.streamlit.app/)
 
-### Usage:
+## Usage:
 
 1.Upload a facial image (.jpg, .jpeg, .png, ≤5MB)
 
