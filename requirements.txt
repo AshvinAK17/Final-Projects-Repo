@@ -2,3 +2,9 @@ streamlit==1.47.0
 tensorflow==2.16.1
 numpy
 pillow
+torch
+torchvision
+facenet-pytorch
+mediapipe
+tqdm
+scikit-learn
