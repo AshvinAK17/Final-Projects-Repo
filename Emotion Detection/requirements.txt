@@ -1,9 +1,0 @@
-streamlit
-torch
-torchvision
-facenet-pytorch
-mediapipe
-numpy
-pillow
-tqdm
-scikit-learn
