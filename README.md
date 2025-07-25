@@ -13,7 +13,7 @@ These projects showcase real-world applications using CNNs, NLP, computer vision
   - Custom CNN & models like MobileNetV2, VGG16, ResNet50
   - Data augmentation & evaluation
   - Deployed as a Streamlit web app for real-time prediction
-- **Dataset:** New Plant Diseases Dataset (Augmented)
+- **Dataset:** [Kaggle - New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
 ###  [Emotion Detection from Facial Images](https://github.com/AshvinAK17/Final-Projects-Repo/tree/main/Emotion%20Detection)
 - **Goal:** Predict human emotion (happy, sad, angry, etc.) from facial images.
