@@ -36,7 +36,7 @@ class EmotionCNN(nn.Module):
         return self.classifier(x)
 
 model = EmotionCNN().to(device)
-model.load_state_dict(torch.load("ed_final_best_model.pth", map_location=device))
+model.load_state_dict(torch.load("ed_final_one_best_model.pth", map_location=device))
 model.eval()
 
 # Load artifacts
