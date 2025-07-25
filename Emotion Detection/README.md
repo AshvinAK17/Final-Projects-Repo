@@ -57,7 +57,7 @@ This helps researchers, developers, and hobbyists explore affective computing, u
 ---
 
 ## Directory Structure
-
+```
 Emotion Detection/
 ├── ed_final_one_best_model.pth         # Trained model 
 ├── ed_final_one_train_metrics.json     # Training set evaluation metrics
@@ -68,7 +68,7 @@ Emotion Detection/
 ├── lm_mean.pt                          # Landmark mean tensor
 ├── classes.json                        # List of emotion class labels
 └── Emotion_Detection_Report.pdf        # Project report / documentation
-
+```
 ---
 
 ## Tools & Technologies
