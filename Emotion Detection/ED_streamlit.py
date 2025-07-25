@@ -118,4 +118,4 @@ if uploaded_file:
             st.table(prob_table)
 
     except Exception as e:
-        st.error(f"Error: {e}")
+        st.error(f"Error: {e}") 
