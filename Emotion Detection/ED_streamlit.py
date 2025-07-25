@@ -36,15 +36,15 @@ class EmotionCNN(nn.Module):
         return self.classifier(x)
 
 model = EmotionCNN().to(device)
-model.load_state_dict(torch.load("ed_final_one_best_model.pth", map_location=device))
+model.load_state_dict(torch.load("Emotion Detection/ed_final_one_best_model.pth", map_location=device))
 model.eval()
 
 # Load artifacts
 mtcnn = MTCNN(image_size=128, margin=10, keep_all=False, device=device)
 mp_face = mp.solutions.face_mesh
-lm_mean = torch.load("lm_mean.pt")
-lm_std  = torch.load("lm_std.pt")
-with open("classes.json", "r") as f:
+lm_mean = torch.load("Emotion Detection/lm_mean.pt")
+lm_std  = torch.load("Emotion Detection/lm_std.pt")
+with open("Emotion Detection/classes.json", "r") as f:
     classes = json.load(f)
 
 base_transform = transforms.Compose([
